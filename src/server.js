@@ -1,7 +1,5 @@
 import express from 'express'
 import cors from 'cors'
-import jwt from 'jsonwebtoken'
-import db from './db.js'
 import { serverConfig } from './config/APIconfig.js'
 import UserRoute from './Routes/UuserRoute.js'
 
